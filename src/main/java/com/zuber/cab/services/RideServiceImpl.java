@@ -1,6 +1,6 @@
 package com.zuber.cab.services;
 
-import com.zuber.cab.models.Cab;
+import com.zuber.cab.models.CabDetails;
 import com.zuber.cab.models.Location;
 import org.springframework.stereotype.Service;
 
@@ -10,7 +10,7 @@ public class RideServiceImpl implements RideService {
     }
 
     @Override
-    public Cab allocateCab() {
+    public CabDetails allocateCab() {
         return null;
     }
 

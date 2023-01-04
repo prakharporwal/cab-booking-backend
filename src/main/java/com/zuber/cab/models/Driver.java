@@ -1,8 +1,14 @@
 package com.zuber.cab.models;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Driver {
     private String driverId;
     private String firstName;

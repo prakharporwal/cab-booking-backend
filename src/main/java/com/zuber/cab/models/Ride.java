@@ -1,8 +1,8 @@
 package com.zuber.cab.models;
 
-public class Ride {
+public class Ride extends Auditable {
     private String rideId;
-    private Cab cab;
+    private CabDetails cabDetails;
     private Driver driver;
     private Customer[] customers; //many or one for shared rides
     private String otp;
